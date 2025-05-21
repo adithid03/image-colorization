@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <title>Developer Info</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/developer.css') }}">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">🎨 Colorize Image</a></li>
+            <li><a href="/developer">👨‍💻 Developer Details</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>👨‍💻 Developer Info</h2>
+            <p><strong>Name:</strong> Durgam Adithi</p>
+            <p><strong>Email:</strong> adithidurgam22@gmail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/adithid03" target="_blank">adithid03</a></p>
+            <p><strong>Project:</strong> Image Colorization using Deep Learning</p>
+
+            <h3>📝 About the Project</h3>
+            <p>This project allows users to upload a black and white image and receive a colorized version generated using a deep learning model. It combines machine learning and web development to provide an interactive experience for end users.</p>
+
+            <h3>🛠️ Technologies Used</h3>
+            <ul>
+                <li><strong>Frontend:</strong> HTML, CSS, JavaScript (Flask templates)</li>
+                <li><strong>Backend:</strong> Python with Flask</li>
+                <li><strong>Model:</strong> Siggraph2017 pretrained image colorization model</li>
+                <li><strong>Image Processing:</strong> C++ app using deep learning binaries in Codeblocks</li>
+            </ul>
+
+            <h3>⚙️ How It Works</h3>
+            <ol>
+                <li>User uploads a black & white image.</li>
+                <li>Image is saved and passed to a C++ application <code>colorize_app</code>.</li>
+                <li>The app uses a deep learning model to colorize the image.</li>
+                <li>Result is displayed and can be downloaded.</li>
+            </ol>
+
+            <h3>🚀 Future Enhancements</h3>
+            <ul>
+                <li>Support for bulk uploads</li>
+                <li>Drag-and-drop interface</li>
+                <li>Real-time progress indicator</li>
+                <li>Option to choose different colorization models</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

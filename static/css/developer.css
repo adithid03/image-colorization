@@ -1,0 +1,93 @@
+body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            color: #333;
+            padding: 80px 20px 40px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ffffffcc;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            padding: 15px 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 120px; 
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .card {
+            background: #fff;
+            max-width: 800px;
+            width: 90%;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .card p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            background: #f3f3f3;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }

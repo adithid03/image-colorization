@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>Colorization Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>🎉 Here's Your Colorized Image!</h2>
+    <nav>
+        <ul>
+            <li><a href="/">🎨 Colorize Image</a></li>
+            <li><a href="/developer">👨‍💻 Developer Details</a></li>
+        </ul>
+    </nav>
+
+    <img src="{{ image_url }}" alt="Colorized Image"><br><br>
+
+    <a href="{{ download_url }}">⬇️ Download</a>
+    <form action="/" method="get" style="display:inline;">
+        <button type="submit">🔙 Back to Home</button>
+    </form>
+</body>
+</html>
